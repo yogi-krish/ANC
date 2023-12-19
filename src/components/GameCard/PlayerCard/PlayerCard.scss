@@ -1,0 +1,38 @@
+.player {
+    display: flex;
+    flex-direction: row;
+    // margin-left: 1rem;
+    margin: 0.5rem;
+    .input {
+        background: #E2E2E1;
+        border: 0;
+        color: #868686;
+        height: 1.5rem;
+        border-radius: 2px;
+    }
+    .input:focus {
+        background: #F7F7F7;
+        // border: 1px solid #F7F7F7;
+    }
+    &_name {
+        margin-right: 0.25rem;
+        width: 60%;
+    }
+    &_age {
+        margin-right: 0.25rem;
+        width: 20%;
+    }
+    &_button {
+        width: 10%;
+        background: #A986EA;
+        border: 0;
+        border-radius: 2px;
+        color: #F0EEF5;
+    }
+    &_button:hover {
+        background: #713ADF;
+    }
+    .active {   
+        background: #713ADF;
+    }
+}
